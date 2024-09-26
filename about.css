@@ -1,0 +1,105 @@
+body {
+  
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e6;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #7b377b;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.container h2 {
+    margin-left: 8px;
+}
+
+.team-section {
+    margin: 20px 0;
+}
+
+.team-section div {
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.i img {
+    height: 200px;
+    width: 270px;
+    border-radius: 10%;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    max-width: 100%;
+    display: block;
+}
+
+.one {
+    height: 230px;
+    width: 350px;
+}
+
+.two {
+    height: 250px;
+}
+
+footer {
+    background-color: #7b377b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .team-section .team-member {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-section .team-member div {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .i img {
+        width: 100%;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+}
